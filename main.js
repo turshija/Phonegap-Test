@@ -17,9 +17,11 @@ window.onload = function() {
             action = $this.data('action');
 
         $this.bind('touchstart mousedown', function(e) {
+            e.preventDefault();
             keyboard[ action ] = true;
         });
         $this.bind('touchend mouseup', function(e) {
+            e.preventDefault();
             keyboard[ action ] = false;
         });
     });
