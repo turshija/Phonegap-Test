@@ -7,7 +7,7 @@ ball.velX = 1;
 ball.velY = 1;
 ball.size = 3;
 ball.angle = 0;
-ball.speed = 2;
+ball.speed = 1;
 ball.angularSpeed = 7;
 
 window.onload = function() {

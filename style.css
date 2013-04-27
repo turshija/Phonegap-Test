@@ -11,10 +11,9 @@ ul {
 ul li {
     display: inline-block;
 }
+
 .controls {
     width: 300px;
-}
-.controls {
     border:1px solid red;
     background-color: gray;
     font-size: 2em;
@@ -23,10 +22,12 @@ ul li {
     border:1px solid red;
     width:100px;
     text-align: center;
+    height: 100px;
 }
 .controls .right {
     border:1px solid red;
     float: right;
     width:100px;
     text-align: center;
+    height: 100px;
 }
